@@ -30,7 +30,7 @@
 
 ## Gridded
 
-### Monthly Grids (NClimGrid)
+### [Monthly Grids](https://www.ncei.noaa.gov/data/nclimgrid-monthly/access/) (NClimGrid)
 - Single NetCDF file
 - Updated in place (monthly, I believe)
 - January 1895 to present
@@ -42,7 +42,7 @@
 
 
 
-### Daily Grids (NClimGrid-d)
+### [Daily Grids](https://www1.ncdc.noaa.gov/pub/data/daily-grids/) (NClimGrid-d)
 - Daily grids are contained in monthly NetCDF files
 - Latest month is updated in place daily with a 3 day delay
 - January 1, 1951 to present
@@ -54,12 +54,12 @@
 
 ## Divisional
 
-### Monthly Divisions (NClimDiv)
+### [Monthly Divisions](https://www.ncei.noaa.gov/pub/data/cirs/climdiv/) (NClimDiv)
 - Single text files for each variable
 - More variables than just prcp, tavg, tmin, and tmax
     - e.g., drought severity quantities
 
-### Daily Divisions (NClimDiv-d)
+### [Daily Divisions](https://www1.ncdc.noaa.gov/pub/data/daily-grids/) (NClimDiv-d)
 - Daily data for each variable (4) and each division (9) contained in monthly CSV files
     - 4 variables x 9 divisions = 36 CSV files
 
