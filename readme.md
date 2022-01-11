@@ -31,7 +31,7 @@
 ## Gridded
 
 ### [Monthly Grids](https://www.ncei.noaa.gov/data/nclimgrid-monthly/access/) (NClimGrid)
-- Single NetCDF file
+- Single NetCDF file for each variable
 - Updated in place (monthly, I believe)
 - January 1895 to present
 - "On an annual basis, approximately one year of "final" nClimGrid will be submitted to replace the initially supplied "preliminary" data for the same time period."
@@ -43,7 +43,7 @@
 
 
 ### [Daily Grids](https://www1.ncdc.noaa.gov/pub/data/daily-grids/) (NClimGrid-d)
-- Daily grids are contained in monthly NetCDF files
+- Daily grids are contained in monthly NetCDF files for each variable
 - Latest month is updated in place daily with a 3 day delay
 - January 1, 1951 to present
 - "...estimates for days in the current month will not be fully consistent with either the corresponding monthly products or the daily estimates for previous months and years until the fifth day of the following month."
