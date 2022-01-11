@@ -14,10 +14,10 @@
 - Maximum Temperature (tmax) (Celsius)
 
 ### Data Products
-- Gridded: NClimGrid and NClimGrid-d
+- **Gridded:** NClimGrid and NClimGrid-d
     - Nominal 5 km grid (1/24th degree) interpolated from weather station locations
     - Monthly and Daily Grids
-- Divisional: NClimDiv and NClimGrid-d
+- **Divisional:** NClimDiv and NClimGrid-d
     - Derived from gridded data products via weighted averaging
     - 9 division types (e.g., state, county, census tract, ...)
     - Monthly and Daily text files
@@ -28,7 +28,7 @@
 
 
 
-## Grids
+## Gridded
 
 ### Monthly Grids (NClimGrid)
 - Single NetCDF file
@@ -52,7 +52,7 @@
 
 
 
-## Divisions
+## Divisional
 
 ### Monthly Divisions (NClimDiv)
 - Single text files for each variable
@@ -75,8 +75,8 @@
 - Is the Divisional data intended to for STAC indexing as well?
     - Currently not tied to spatial boundaries other than names (state, county, etc.)
     - Format?
-- Note that the data will be need to be updated as it continues to be released/updated on daily/monthly/annual intervals
-- Related to above, do we preserve/index the preliminary data once the final (termed "scaled", I believe) data is released?
+- *Note that the data will be need to be updated as it continues to be released/updated on daily/monthly/annual intervals*
+    - Dynamic ingest
 
 ### Minor Clarifications on Microsoft GitHub page describing the hosted data
 - The line “…for the un-gridded source data. For un-gridded data:” indicates the ungridded data is source data. It is not - it is daily gridded data that has been averaged into divisions (counties, states, census tracts, etc.).
