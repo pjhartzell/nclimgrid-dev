@@ -1,3 +1,11 @@
 *.ipynb_checkpoints
 
 zarr/
+test-krch-augs/
+test-krch-create/
+test-zarr-create/
+
+temp.py
+
+*.json
+!daily-prcp.json
