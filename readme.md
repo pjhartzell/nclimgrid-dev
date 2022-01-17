@@ -44,6 +44,7 @@
 
 ### [Daily Grids](https://www1.ncdc.noaa.gov/pub/data/daily-grids/) (NClimGrid-d)
 - Daily grids are contained in monthly NetCDF files for each variable
+    - Prior to 1970, all four variables are in a single monthly NetCDF file
 - Latest month is updated in place daily with a 3 day delay
 - January 1, 1951 to present
 - "...estimates for days in the current month will not be fully consistent with either the corresponding monthly products or the daily estimates for previous months and years until the fifth day of the following month."
